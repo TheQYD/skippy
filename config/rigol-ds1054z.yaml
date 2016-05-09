@@ -1,0 +1,400 @@
+autoscale:
+  help: "Auto-adjust waveform scale."
+  flags: null
+clear:
+  help: "Clear all waveforms on screen."
+  flags: null
+run:
+  help: "Start oscilloscope."
+  flags:
+stop:
+  help: "Stop oscilloscope."
+  flags:
+single:
+  help: "Set single trigger mode."
+  flags:
+tforce:
+  help: "Generate a trigger signal forcefully."
+  flags:
+acquire:
+  help: "Set and get values that affect signal acquisition."
+  flags:
+    averages:
+      help:
+    mdepth:
+      help: 
+    type:
+      help:
+    strate:
+      help:
+calibrate:
+  help: "Start and stop self calibration."
+  flags:
+    quit:
+      help: "Stops calibration."
+    start:
+      help:
+channel:
+  help: "Set or query vertical parameters of analog channels."
+  flags:
+    bwlimit:
+      help:
+    coupling:
+      help:
+    display:
+      help:
+    invert:
+      help:
+    offset:
+      help:
+    range:
+      help:
+    tcal:
+      help:
+    scale:
+      help:
+    probe:
+      help:
+    units:
+      help:
+    vernier:
+      help:
+cursor:
+  help: "Measure X-axis and Y-axis value of a waveform."
+  flags:
+    mode:
+      help:
+    manual:
+      help:
+    track:
+      help:
+    auto:
+      help:
+    xy:
+      help:
+decoder:
+  help: "Execute decoding settings and operations."
+  flags:
+    mode:
+      help:
+    display:
+      help:
+    format:
+      help:
+    position:
+      help:
+    threshold:
+      help:
+    config:
+      help:
+    uart:
+      help:
+    iic:
+      help:
+    spi:
+      help:
+    parallel:
+      help:
+display:
+  help: "Set waveform display properties."
+  flags:
+    clear:
+      help:
+    data:
+      help:
+    type:
+      help:
+    grading:
+      help:
+    wbrightness:
+      help:
+    grid:
+      help:
+    gbrightness:
+      help:
+etable:
+  help: "Set parameters to decode event table."
+  flags:
+    disp:
+      help:
+    format:
+      help:
+    view:
+      help:
+    column:
+      help:
+    row:
+      help:
+    sort:
+      help:
+    data:
+      help:
+function:
+  help: "Set waveform recording and playback parameters."
+  flags:
+    wrecord:
+      help:
+    wreplay:
+      help:
+ieee: 
+  help: "Common flags for querying or executing operations."
+  flags:
+    cls:
+      help:
+    ese:
+      help:
+    esr:
+      help:
+    idn:
+      help:
+    opc:
+      help:
+    rst:
+      help:
+    sre:
+      help:
+    stb:
+      help:
+    tst:
+      help:
+    wai:
+      help:
+la:
+  help: "Perform related operations on digital channels." 
+  flags:
+    active:
+      help:
+    autosort:
+      help:
+    digital:
+      help:
+    display:
+      help:
+    pod:
+      help:
+    size:
+      help:
+    state:
+      help:
+    tcalibrate:
+      help:
+math:
+  help: "Perform operations between waveforms."
+  flags:
+    display:
+      help:
+    operator:
+      help:
+    source:
+      help:
+    lsource:
+      help:
+    scale:
+      help:
+    offset:
+      help:
+    invert:
+      help:
+    reset:
+      help:
+    option:
+      help:
+mask:
+  help: "Set and query pass/fail test parameters."
+  flags:
+    enable:
+      help:
+    source:
+      help:
+    operate:
+      help:
+    mdisplay:
+      help:
+    sooutput:
+      help:
+    output:
+      help:
+    x:
+      help:
+    y:
+      help:
+    create:
+      help:
+    passed:
+      help:
+    failed:
+      help:
+    total:
+      help:
+    reset:
+      help:
+measure:
+  help: "Set and query measurement parameters." 
+  flags:
+    source:
+      help:
+    counter:
+      help:
+    clear:
+      help:
+    recover:
+      help:
+    adisplay:
+      help:
+    amsource:
+      help:
+    setup:
+      help:
+    statistic:
+      help:
+    item:
+      help:
+reference:
+  help: "Set reference waveform parameters."
+  flags: 
+    display:
+      help:
+    enable:
+      help:
+    source:
+      help:
+    vscale:
+      help:
+    voffset:
+      help:
+    reset:
+      help:
+    current:
+      help:
+    save:
+      help:
+    color:
+      help:
+source:
+  help: "Toggle or query output of a source channel."
+  flags:
+    state:
+      help:
+    impedance:
+      help:
+    frequency:
+      help:
+    phase:
+      help:
+    function:
+      help:
+    volatge:
+      help:
+    pulse:
+      help:
+    mod:
+      help:
+    apply:
+      help:
+system:
+  help: "Set system parameters (sound, language, etc)."
+  flags:
+    autoscale:
+      help:
+    beeper:
+      help:
+    error:
+      help:
+    gpib:
+      help:
+    language:
+      help:
+    locked:
+      help:
+    pon:
+      help:
+    option:
+      help:
+trace:
+  help: "Set waveform parameters of built-in signal sources."
+  flags:
+    data:
+      help:
+timebase:
+  help: "Set horizontal parameters."
+  flags:
+    delay:
+      help:
+    main:
+      help:
+    mode:
+      help:
+trigger:
+  help: "Set trigger system." 
+  flags:
+    mode:
+      help:
+    coupling:
+      help:
+    status:
+      help:
+    sweep:
+      help:
+    holdoff:
+      help:
+    nreject:
+      help:
+    edge:
+      help:
+    pulse:
+      help:
+    slope:
+      help:
+    video:
+      help:
+    pattern:
+      help:
+    duration:
+      help:
+    timeout:
+      help:
+    runt:
+      help:
+    windows:
+      help:
+    delay:
+      help:
+    shold:
+      help:
+    nedge:
+      help:
+    rs232:
+      help:
+    iic:
+      help:
+    spi:
+      help:
+waveform:
+  help: "Read waveform data and its related settings."
+  flags:
+    source:
+      help:
+    mode:
+      help:
+    format:
+      help:
+    data:
+      help:
+    xincriment:
+      help:
+    xorigin:
+      help:
+    xreference:
+      help:
+    yincrement:
+      help:
+    yorigin:
+      help:
+    yreference:
+      help:
+    start:
+      help:
+    stop:
+      help:
+    preamble:
+      help:

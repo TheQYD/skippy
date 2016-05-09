@@ -1,0 +1,187 @@
+autoscale: null
+clear: null
+run: null
+stop: null
+single: null
+tforce:
+acquire:
+  - averages
+  - mdepth
+  - type
+  - strate
+calibrate:
+  - quit
+  - start
+channel:
+  - bwlimit
+  - coupling
+  - display
+  - invert
+  - offset
+  - range
+  - tcal
+  - scale
+  - probe
+  - units
+  - vernier
+cursor:
+  - mode
+  - manual
+  - track
+  - auto
+  - xy
+decoder:
+  - mode
+  - display
+  - format
+  - position
+  - threshold
+  - config
+  - uart
+  - iic
+  - spi
+  - parallel
+display:
+  - clear
+  - data
+  - type
+  - grading
+  - wbrightness
+  - grid
+  - gbrightness
+etable:
+  - disp
+  - format
+  - view
+  - column
+  - row
+  - sort
+  - data
+function:
+  - wrecord
+  - wreplay
+ieee:
+  - cls
+  - ese
+  - esr
+  - idn
+  - opc
+  - rst
+  - sre
+  - stb
+  - tst
+  - wai
+la:
+  - active
+  - autosort
+  - digital
+  - display
+  - pod
+  - size
+  - state
+  - tcalibrate
+math:
+  - display
+  - operator
+  - source
+  - lsource
+  - scale
+  - offset
+  - invert
+  - reset
+  - option
+mask:
+  - enable
+  - source
+  - operate
+  - mdisplay
+  - sooutput
+  - output
+  - x
+  - y
+  - create
+  - passed
+  - failed
+  - total
+  - reset
+measure:
+  - source
+  - counter
+  - clear
+  - recover
+  - adisplay
+  - amsource
+  - setup
+  - statistic
+  - item
+reference:
+  - display
+  - enable
+  - source
+  - vscale
+  - voffset
+  - reset
+  - current
+  - save
+  - color
+source:
+  - state
+  - impedance
+  - frequency
+  - phase
+  - function
+  - volatge
+  - pulse
+  - mod
+  - apply
+system:
+  - autoscale
+  - beeper
+  - error
+  - gpib
+  - language
+  - locked
+  - pon
+  - option
+trace:
+  - data
+timebase:
+  - delay
+  - main
+  - mode
+trigger:
+  - mode
+  - coupling
+  - status
+  - sweep
+  - holdoff
+  - nreject
+  - edge
+  - pulse
+  - slope
+  - video
+  - pattern
+  - duration
+  - timeout
+  - runt
+  - windows
+  - delay
+  - shold
+  - nedge
+  - rs232
+  - iic
+  - spi
+waveform:
+  - source
+  - mode
+  - format
+  - data
+  - xincriment
+  - xorigin
+  - xreference
+  - yincrement
+  - yorigin
+  - yreference
+  - start
+  - stop
+  - preamble
