@@ -46,6 +46,11 @@ if __name__ == '__main__':
   args = ProcessArgs(config)
   module = args.__subparser__.capitalize()
   args_dict = vars(args)
+  args_dict.pop('__subparser__') 
   for flag in args_dict:
     if args_dict[flag] is not None:
-      print module, flag, args_dict[flag] 
+       value = args_dict[flag]
+       flag = flag.capitalize()
+       module_call = getattr(ds1054z, module)
+       method_call = getattr(module_call, flag)
+       method_call(module, flag, value)
